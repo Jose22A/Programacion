@@ -1,0 +1,24 @@
+/*
+ * Descripción: Aprender a manejar los tipos enumerados
+ * Autor: Jose Alberto Soto Mas
+ * Fecha: 26/09/25
+ */
+package ejercicio4;
+
+public class Ejercicio4 {
+	
+	public enum Tamanos {PEQUEÑA, MEDIANA, GRANDE, EXTRAGRANDE}//Creación del tipo enumerado
+
+	public static void main(String[] args) {
+		Tamanos tamano1, tamano2, tamano3, tamano4;//Declaración de las variables del tipo enumerado
+		tamano1 = Tamanos.PEQUEÑA;//Inicialización de las variables del tipo enumerado
+		tamano2 = Tamanos.MEDIANA;
+		tamano3 = Tamanos.GRANDE;
+		tamano4 = Tamanos.EXTRAGRANDE;
+		System.out.println("Tamaño de letra: " + tamano1);
+		System.out.println("Tamaño de letra: " + tamano2);
+		System.out.println("Tamaño de letra: " + tamano3);
+		System.out.println("Tamaño de letra: " + tamano4);
+	}
+
+}

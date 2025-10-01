@@ -1,0 +1,10 @@
+package palos;
+
+public class Palos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

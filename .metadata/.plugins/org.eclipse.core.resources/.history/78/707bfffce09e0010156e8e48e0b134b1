@@ -1,0 +1,23 @@
+package ejercicio4;
+
+import java.util.Scanner;
+
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner (System.in);//Inicialización de la entrada de datos
+		
+		double num;//Declaración de variable
+		System.out.print("Introduce un número: ");
+		num = teclado.nextDouble();//Petición y asignación de un dato introducido en el teclado
+		
+		double numRound, numCeil, numFloor;
+		numRound = Math.round(num);
+		numCeil = Math.ceil(num);
+		numFloor = Math.floor(num);
+		System.out.println("Math.round(" + num + ") = " + numRound);
+		System.out.println("Math.ceil(" + num + ") = " + numCeil);
+		System.out.println("Math.floor(" + num + ") = " + numFloor);
+	}
+
+}

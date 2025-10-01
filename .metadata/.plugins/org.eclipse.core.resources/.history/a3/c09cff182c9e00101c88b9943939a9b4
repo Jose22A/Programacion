@@ -1,0 +1,33 @@
+package calculosAritmeticos;
+
+import java.util.Scanner;
+
+public class CalculosAritmeticos {
+	
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner (System.in);//Inicialización de la entrada de datos
+		
+		int num1, num2;
+		System.out.println("CÁLCULOS ARITMÉTICOS");
+		System.out.println("--------------------");
+		System.out.println("Introduzca dos números reales:");
+		System.out.print("Primer número: ");
+		num1 = teclado.nextInt();
+		System.out.print("Segundo número: ");
+		num2 = teclado.nextInt();
+		
+		double dobleNum1, mitadNum2, cuadradoSuma, divSumaCuadrados;
+		dobleNum1 = num1 * 2;
+		mitadNum2 = num2 / 2;
+		cuadradoSuma = (num1 + num2) * (num1 + num2);
+		divSumaCuadrados = (num1 * num1 + num2 * num2) / 10;
+		
+		System.out.println("RESULTADO");
+		System.out.println("---------");
+		System.out.println("Doble del primer número: " + dobleNum1);
+		System.out.println("Mitad del segundo número: " + mitadNum2);
+		System.out.println("Cuadrado de la suma de ambos números: " + cuadradoSuma);
+		System.out.println("Décima parte de la suma de los cuadrados de ambos números: " + divSumaCuadrados);
+	}
+	
+}

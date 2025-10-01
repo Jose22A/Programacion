@@ -1,0 +1,48 @@
+/*
+ * Descripción: Asignar datos a distintos tipos de variables mediante el teclado
+ * Autor: Jose Alberto Soto Mas
+ * Fecha: 25/09/25
+ */
+package ejercicio1;
+
+import java.util.Scanner;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner (System.in);//Inicialización de la entrada de datos
+		
+		String nombre;//Declaración de variable
+		System.out.print("Introduce tu nombre: ");
+		nombre = teclado.nextLine();//Petición y asignación de un dato introducido en el teclado 
+		
+		String apellidos;
+		System.out.print("Introduce tus apellidos: ");
+		apellidos = teclado.nextLine();
+		
+		byte edad;
+		System.out.print("Introduce tu edad: ");
+		edad = teclado.nextByte();
+		
+		teclado.nextLine();//Linea adicional para evitar que la siguiente petición asigne el retorno de carro a la variable
+		String direccion;
+		System.out.print("Introduce tu direccion: ");
+		direccion = teclado.nextLine();
+		
+		float altura;
+		System.out.print("Introduce tu altura: ");
+		altura = teclado.nextFloat();
+		
+		float peso;
+		System.out.print("Introduce tu peso: ");
+		peso = teclado.nextFloat();
+		
+		System.out.println("Nombre: " + nombre);
+		System.out.println("Apellidos: " + apellidos);
+		System.out.println("Edad: " + edad);
+		System.out.println("Direccion: " + direccion);
+		System.out.println("Nombre: " + altura);
+		System.out.println("Nombre: " + peso);
+	}
+	
+}

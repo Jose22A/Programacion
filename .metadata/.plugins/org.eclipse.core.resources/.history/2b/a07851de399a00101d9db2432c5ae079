@@ -1,0 +1,23 @@
+package operadoresBasicos;
+
+public class EjemploOperacionesBasicas {
+
+	public static void main(String[] args) {
+		int dato1, dato3;
+		double dato2;
+		dato1 = 5;
+		dato2 = 3;
+		dato3 = 2;
+		double suma = dato1 + dato2;
+		System.out.println("La suma es: " + suma);
+		double resta = dato1 - dato2;
+		System.out.println("La resta es: " + resta);
+		double multi = dato1 * dato2;
+		System.out.println("La multiplicación es: " + multi);
+		double div = dato1 / dato2;
+		System.out.println("La división es: " + div);
+		double resto = dato1 % dato3;
+		System.out.println("La división es: " + resto);
+	}
+
+}

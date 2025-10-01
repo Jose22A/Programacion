@@ -1,0 +1,14 @@
+package palos;
+
+public class Palos {
+
+	public static void main(String[] args) {
+		String palo1 = "OROS", palo2 = "COPAS", palo3 = "BASTOS", palo4 = "ESPADAS";
+		System.out.println("PALOS DE LA BARAJA ESPAÑOLA");
+		System.out.println("Palo 1: " + palo1);
+		System.out.println("Palo 2: " + palo2);
+		System.out.println("Palo 3: " + palo3);
+		System.out.println("Palo 4: " + palo4);
+	}
+
+}
