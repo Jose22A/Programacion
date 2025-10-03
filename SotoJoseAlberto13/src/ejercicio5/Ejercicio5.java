@@ -1,7 +1,7 @@
 /*
  * Descripción: Uso de la clase Math para varias operaciones
  * Autor: Jose Alberto Soto Mas
- * Fecha: 01/10/25
+ * Fecha: 03/10/25
  */
 package ejercicio5;
 
@@ -22,7 +22,7 @@ public class Ejercicio5 {
 		numMin = Math.min(num1, num2);
 		num1ElevNum2 = Math.pow(num1, num2);
 		sqrtNum1 = Math.sqrt(num1);
-		randNum2 = Math.rint(num2);
+		randNum2 = Math.random() * num2;
 		System.out.println("El menor de los dos números es " + numMin);
 		System.out.println("El primer número elevado al segundo es " + num1ElevNum2);
 		System.out.println("La raiz cuadrada del primer número es " + sqrtNum1);
