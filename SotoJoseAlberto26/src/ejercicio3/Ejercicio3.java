@@ -1,3 +1,8 @@
+/*
+ * Descripción: Manejo básico de condicionales
+ * Autor: Jose Alberto Soto Mas
+ * Fecha: 07/10/25
+ */
 package ejercicio3;
 
 import java.util.Scanner;

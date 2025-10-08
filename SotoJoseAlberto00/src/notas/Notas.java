@@ -1,3 +1,8 @@
+/*
+ * Descripción: Manejo básico de condicionales para asignar la nota cualitativa correspondiente
+ * Autor: Jose Alberto Soto Mas
+ * Fecha: 07/10/25
+ */
 package notas;
 
 import java.util.Scanner;
