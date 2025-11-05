@@ -12,7 +12,22 @@ public class Temperaturas {
 		final int DIAS = 30;
 		
 		int[][] temperaturas;//Declaración del array
-		temperaturas = new int[DIAS][12];//Instanciamos array
+		temperaturas = new int[DIAS][MESES];//Instanciamos array
+		String[] meses;
+		meses = new String[MESES];
+		
+		meses[0] = "Enero";
+		meses[1] = "Febrero";
+		meses[2] = "Marzo";
+		meses[3] = "Abril";
+		meses[4] = "Mayo";
+		meses[5] = "Junio";
+		meses[6] = "Julio";
+		meses[7] = "Agosto";
+		meses[8] = "Septiembre";
+		meses[9] = "Octubre";
+		meses[10] = "Noviembre";
+		meses[11] = "Diciembre";
 		
 		for (int dia = 0; dia < DIAS; dia++) {
 			for (int mes = 0; mes < MESES; mes++) {
@@ -27,7 +42,7 @@ public class Temperaturas {
 			System.out.println("");
 		}
 		
-		int tempMax, tempMin, diaTempMax;
+		int tempMax, tempMin, diaTempMax, mesTempMax = 0;
 		for (int mes = 0; mes < MESES; mes++) {
 			tempMax = temperaturas[0][mes];//Iniciamos tempMax a la temperatura del primer día del mes
 			tempMin = temperaturas[0][mes];//Iniciamos tempMin a la temperatura del primer día del mes
@@ -46,6 +61,7 @@ public class Temperaturas {
 			System.out.println("Dia de temperatura máxima del mes " + mes + ": " + diaTempMax);
 			System.out.println("Amplitud térmica del mes " + mes + ": " + (tempMax-tempMin));
 		}
+		System.out.println("Mes de temperatura máxima: " + mesTempMax);
 		
 		int dia;
 		for (int mes = 0; mes < MESES; mes++) {
