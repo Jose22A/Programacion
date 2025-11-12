@@ -1,3 +1,8 @@
+/*
+ * Descripción: Manejo de métodos
+ * Autor: Jose Alberto Soto Mas
+ * Fecha: 6/11/25
+ */
 package metodos;
 
 public class Metodos {
@@ -20,5 +25,10 @@ public class Metodos {
 			par = false;
 		}
 		return par;
+	}
+	
+	//EsImpar calcula si un valor es impar. Devuelve un tipo booleano
+	public static boolean esImpar(int numero) {
+		return !esPar(numero);
 	}
 }

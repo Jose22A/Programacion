@@ -1,3 +1,8 @@
+/*
+ * Descripción: Manejo de arrays usando la clase Arrays
+ * Autor: Jose Alberto Soto Mas
+ * Fecha: 6/11/25
+ */
 package ejercicio17;
 
 import java.util.Arrays;
